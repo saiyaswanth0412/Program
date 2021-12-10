@@ -4,5 +4,11 @@ int main
 {
   int a,b;
   cin>>a>>b;
-  cout<<a/b<<endl;
+  if(b==0)
+  {
+    cout<<"Division is not possible"<<endl;
+
+  }
+  else
+    cout<<a/b<<endl;
  }
